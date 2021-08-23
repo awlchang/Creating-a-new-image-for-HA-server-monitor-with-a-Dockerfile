@@ -50,7 +50,7 @@ do
     # keep only the last 100 lines of a log file
     tail -n 100 $log_file | sponge $log_file
     
-	sleep $interval
+    sleep $interval
 
 done
 
