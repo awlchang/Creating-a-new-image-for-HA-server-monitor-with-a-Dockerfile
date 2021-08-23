@@ -48,6 +48,7 @@ do
     fi
 
     # keep only the last 100 lines of a log file
+    # apt-get install moreutils for sponge
     tail -n 100 $log_file | sponge $log_file
     
     sleep $interval
