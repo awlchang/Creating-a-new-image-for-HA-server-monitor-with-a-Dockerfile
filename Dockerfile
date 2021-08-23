@@ -16,5 +16,6 @@ WORKDIR /app
 ADD app /app/
 
 RUN chmod +x /app/wait-for-it.sh
+RUN chmod +x /app/monitorHA.sh
 
 CMD ["/bin/sh", "/app/monitorHA.sh"]
