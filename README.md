@@ -1,5 +1,5 @@
 ### Creating-a-new-image-for-HA-server-monitor-with-a-Dockerfile
-> Mr. Akashic Tue, Aug 24, 2021
+> Tue, Aug 24, 2021
 
 + image name
   + akashic0616/ha-server-monitor:latest
