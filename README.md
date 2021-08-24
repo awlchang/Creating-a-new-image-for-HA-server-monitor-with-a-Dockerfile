@@ -1,10 +1,10 @@
 ### Creating-a-new-image-for-HA-server-monitor-with-a-Dockerfile
 > Tue, Aug 24, 2021
 
-+ image name
++ Image name
   + akashic0616/ha-server-monitor:latest
 
-+ 說明
++ 使用說明
   + HA server monitor image需搭配homeassistant/armv7-hassio-supervisor image一起使用，如附檔docker-compose.yml。
   
 + 功能
