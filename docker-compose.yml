@@ -1,3 +1,7 @@
+version: '3'
+
+services:
+
   hassos:
     image: homeassistant/armv7-hassio-supervisor
     container_name: hassio_supervisor
